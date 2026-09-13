@@ -1,0 +1,15 @@
+services:
+  f1-calendar-sky:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: f1-calendar-sky:latest
+    container_name: f1-calendar-sky
+    restart: unless-stopped
+    ports:
+      - "1950:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+

@@ -1,0 +1,10 @@
+{
+  "name": "1_Remix Remix F1 Calendar \u0026 Live Sky Sync",
+  "description": "Calendario completo F1 con orari sessioni, dirette Sky Sport/TV8, sincronizzazione con promemoria a 30 e 15 min, notifiche push, classifiche live e supporto Docker per Raspberry Pi 4.",
+  "requestFramePermissions": [
+    "notifications"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
